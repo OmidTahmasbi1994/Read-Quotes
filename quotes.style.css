@@ -12,7 +12,7 @@ body
     align-items: stretch;
     max-width: 100%;
     min-height: 900px;
-    background-color: cyan;
+    background-color: lime;
 }
 #center
 {
@@ -43,11 +43,28 @@ body
     height: 4%;
     padding-top: 6px;
     text-align: center;
-    color: black;
+    background-color: lavenderblush;
+    color: midnightblue;
     border-style: solid;
     border-width: 2px;
     border-radius: 10px;
     font-size: 30px;
-    border-color: black;
+    border-color: midnightblue;
+    letter-spacing: 2px;
+    transition-duration:0.1s;
+}
+#button:hover
+{
+    width: 11%;
+    height: 5%;
+    padding-top: 8px;
+    text-align: center;
+    background-color: lavenderblush;
+    color: midnightblue;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    font-size: 39px;
+    border-color: midnightblue;
     letter-spacing: 2px;
 }

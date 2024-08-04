@@ -20,7 +20,7 @@ var index = 0
 function changeBackground()
 {
     var page = document.getElementById('container') ;
-    var backgrounds = ['cyan' , 'tomato' , 'crimson' , 'green' , 'blue'] ;
+    var backgrounds = ['lime' , 'deeppink' , 'yellow' , 'aqua' , 'greenyellow' , 'magenta' , 'gold' , 'aquamarine'] ;
     index++ ;
 
     if(index==backgrounds.length)
