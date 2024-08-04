@@ -31,7 +31,7 @@ function changeBackground()
 
 var counter = 0;
 
-function changeQuote()
+function responsiveChangeQuote()
 {
     var quotes = document.getElementById('responsiveCenter').getElementsByTagName('p') ;
     counter++ ;
