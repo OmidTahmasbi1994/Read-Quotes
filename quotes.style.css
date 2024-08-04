@@ -1,0 +1,53 @@
+body
+{
+    margin: 0px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#container
+{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    max-width: 100%;
+    min-height: 900px;
+    background-color: cyan;
+}
+#center
+{
+    width: 60%;
+    text-align: center;
+}
+#center p
+{
+    display: none;
+    width: 100%;
+    height: 25%;
+    margin-top: 14%;
+    direction:ltr;
+    text-align: center;
+    padding-top: 40px;
+    font-size:28px;
+    font-weight: bold;
+    font-family: arial;
+    letter-spacing: 1px;
+}
+#center p:first-child 
+{
+    display: block;
+}
+#button
+{
+    width: 10%;
+    height: 4%;
+    padding-top: 6px;
+    text-align: center;
+    color: black;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    font-size: 30px;
+    border-color: black;
+    letter-spacing: 2px;
+}
