@@ -28,3 +28,20 @@ function changeBackground()
     
     page.style.backgroundColor = backgrounds[index]
 }
+
+var counter = 0;
+
+function changeQuote()
+{
+    var quotes = document.getElementById('responsiveCenter').getElementsByTagName('p') ;
+    counter++ ;
+    if(counter == quotes.length)
+        counter = 0;
+
+    if(counter==0)
+        quotes[quotes.length-1].style.display = 'none' ;
+    else
+        quotes[counter-1].style.display = 'none' ;
+
+    quotes[counter].style.display = 'block' ;
+}

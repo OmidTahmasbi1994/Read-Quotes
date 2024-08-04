@@ -19,6 +19,10 @@ body
     width: 60%;
     text-align: center;
 }
+#responsiveCenter
+{
+    display: none;
+}
 #center p
 {
     display: none;
@@ -67,4 +71,70 @@ body
     font-size: 39px;
     border-color: midnightblue;
     letter-spacing: 2px;
+}
+
+/*#####################################################################################*/
+
+@media screen and (max-width:480px)
+
+{
+    body
+    {
+        margin: 0px;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #container
+    {
+        display: flex;
+        justify-content: center;
+        align-items: stretch;
+        max-width: 100%;
+        min-height: 750px;
+        background-color: lime;
+    }
+    #center
+    {
+        display: none;
+    }
+    #responsiveCenter
+    {
+        display: block;
+        width: 85%;
+        text-align: center;
+    }
+    #responsiveCenter p
+    {
+        display: none;
+        width: 100%;
+        height: 25%;
+        margin-top: 54%;
+        direction:ltr;
+        text-align: center;
+        padding-top: 40px;
+        font-size: 15px;
+        font-weight: bold;
+        font-family: tahoma;
+        letter-spacing: 0px;
+    }
+    #responsiveCenter p:first-child 
+    {
+        display: block;
+    }
+    #responsiveButton
+    {
+        width: 25%;
+        height: 4%;
+        padding-top: 2px;
+        text-align: center;
+        background-color: lavenderblush;
+        color: midnightblue;
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 10px;
+        font-size: 29px;
+        border-color: midnightblue;
+        letter-spacing: 2px;
+    }
 }
