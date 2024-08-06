@@ -8,6 +8,7 @@ body
 #container
 {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: stretch;
     max-width: 100%;
@@ -47,7 +48,7 @@ body
     height: 4%;
     padding-top: 6px;
     text-align: center;
-    background-color: lavender;
+    background-color: ghostwhite;
     color: midnightblue;
     border-style: solid;
     border-width: 2px;
@@ -63,7 +64,7 @@ body
     height: 5%;
     padding-top: 8px;
     text-align: center;
-    background-color: lavender;
+    background-color: ghostwhite;
     color: midnightblue;
     border-style: solid;
     border-width: 2px;
@@ -88,6 +89,7 @@ body
     #container
     {
         display: flex;
+        flex-direction: row;
         justify-content: center;
         align-items: stretch;
         max-width: 100%;
@@ -128,7 +130,7 @@ body
         height:35px;
         padding-top: 4px;
         text-align: center;
-        background-color: lavender;
+        background-color: ghostwhite;
         color: midnightblue;
         border-style: solid;
         border-width: 1px;
